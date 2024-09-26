@@ -1,0 +1,16 @@
+GET /general/fonts/Roboto-Condensed-italic/Roboto-Condensed-italic.woff2 HTTP/1.1
+Host: 127.0.0.1:8800
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="116", "Not)A;Brand";v="24", "Microsoft Edge";v="116"
+Origin: http://127.0.0.1:8800
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: font
+Referer: http://127.0.0.1:8800/general/fonts-Roboto-Condensed.css
+Accept-Encoding: gzip, deflate, br
+Accept-Language: de
+

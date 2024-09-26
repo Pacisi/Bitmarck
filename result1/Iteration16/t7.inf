@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Url: booking.pl_3
+Total=1
+FileName1=t7.html
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=booking.pl_3
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1714032250984
+URL1=http://127.0.0.1:8800/cgi-bin/booking.pl?DEPARTFLIGHTID=BWA0001&ACTION2=Next&SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8FBAC3BEF892

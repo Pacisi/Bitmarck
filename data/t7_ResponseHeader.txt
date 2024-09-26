@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Length: 131
+Content-Type: application/json; charset=utf-8
+Content-Security-Policy: base-uri 'self';block-all-mixed-content;default-src 'self';img-src 'self';object-src 'none';script-src 'none';style-src 'self';upgrade-insecure-requests;
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 5FBE823171BA46A6AEEF8833B0BD0F23 Ref B: FRAEDGE1206 Ref C: 2023-08-28T14:17:41Z
+Date: Mon, 28 Aug 2023 14:17:41 GMT
+

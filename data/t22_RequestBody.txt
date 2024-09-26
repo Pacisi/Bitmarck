@@ -1,0 +1,7 @@
+"{\"channelExpireTime\":\"Wed, 18 Jun 2025 19:34:03 GMT\",\"channelurl\":\"https://wns2-am3p.no"
+"tify.windows.com/w/?token=BQYAAAA7Sz9ARdAbauwYBeAyGmoaaAwQXdYjKm9CMrNGsLSnrzkprPdE6BnpueguGN23"
+"IhE9CKs%2f9xPYRNlU3qjfAT96mk6jjYbiOtAsNnA4ZvMRu9sXDVLaIzFN4hEHx4yAOa6t3iPjQajdmLgSc1KcKTcDQVJ%"
+"2fSkaVsp7fZq%2f%2bIRZRuBEMsj8jrZUm%2fBYoXJ1h4n4ue42jSWj9SzYbS64unRwsDMihHoWzzkA3RVNDQHxkVlhIqO"
+"RXu6dHB02ncjWZy10%3d\",\"deviceId\":\"chr:ujqqGihqT7Go6gcshwEwqQ==\",\"publisherFilters\":[{\""
+"activityTypes\":[64,65,66,67,70,71,72,75,77,79,82,103,104,106,108,109,113],\"application\":\"e"
+"dge.activity.windows.com\",\"notificationType\":\"notificationOnly\",\"platform\":\"host\"}]}"

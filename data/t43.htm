@@ -1,0 +1,84 @@
+<!DOCTYPE HTML> 
+<html lang="de">
+<head>
+<title>Itinerary &bull; WakaTours</title>
+<meta charset="utf-8">
+<meta name="author"				content="WAKA Software GmbH">
+<meta name="copyright"			content="WAKA Software GmbH">
+<meta name="robots" 			content="noindex,nofollow">
+<meta name="format-detection"	content="telephone=no">
+<link rel="icon" 				href="/./general/wakatours.ico" type="image/x-icon">
+<link rel="stylesheet"    		href="/./general/wakatours.css">
+<link rel="stylesheet"    		href="/./general/fonts-Roboto-Condensed.css">
+<script type="text/javascript"	src ="/./general/help.js"></script>
+</head>
+<body >
+<div id="MBANNER">
+<img src="/./general/wakatours-header.jpg" alt="">
+<h1 id="MHEADLINE" class="CH1">WakaTours</h1>
+</div>
+<div class="MTAB">
+  <div class="MROW">
+    <div id="MCELL_TOP">Logged in as: testuser</div>
+  </div>
+  <div class="MTAB">
+    <div class="MCELL">
+      <div class="MTAB">
+        <div id="MCELL_LEFT"><ul class="NAVI">
+<li class="NAVI"><a class="NAVI " onClick="document.forms['BOOKING'].submit();">Booking</a></li>
+<li class="NAVI"><a class="NAVI ACTIVE" onClick="document.forms['ITINERARY'].submit();">Itinerary</a></li>
+<li class="NAVI"><a class="NAVI " onClick="document.forms['PROFILE'].submit();">Profile</a></li>
+<li class="NAVI"><a class="NAVI" onClick="document.forms['LOGOUT'].submit();">Logout</a></li>
+</ul>
+<form method="GET" id="FORM-BOOKING"   name="BOOKING"   action="/./cgi-bin/booking.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDA91F1E23283349B37464CA94BBD5"></form>
+<form method="GET" id="FORM-ITINERARY" name="ITINERARY" action="/./cgi-bin/itinerary.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDA91F1E23283349B37464CA94BBD5"></form>
+<form method="GET" id="FORM-PROFILE"   name="PROFILE"   action="/./cgi-bin/profile.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDA91F1E23283349B37464CA94BBD5"></form>
+<form method="GET" id="FORM-LOGOUT"    name="LOGOUT"    action="/./cgi-bin/logout.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDA91F1E23283349B37464CA94BBD5"></form></div>
+        <div id="MCELL_RIGHT">
+<h2 class="CH2M">Itinerary</h2>
+<form action="/./cgi-bin/itinerary.pl" method="GET">
+Number of Flight Bookings: 1<br><br>
+<div class="BLUE_BOX">
+<h3 class="H3BM"><input type="checkbox" name="1693232312.0" value="1">&nbsp;Flight Booking on Mon Aug 28 16:18:32 2023</h3>
+<table class="ITINERARY">
+<tr><td class="ITINERARY">1 Coach Class Ticket from Cologne to Hamburg<br>29/08/2022 &bull; 06:15 AM &bull; Broken Wings Air 0001<br>Seating Preference: None</td></tr>
+<tr><td class="ITINERARY">Total Costs: 1350 &euro;</td></tr>
+<tr><td class="ITINERARY">Charged Credit Card: 1234567890</td></tr>
+</table>
+</div>
+<br>
+<div class="ACTION">
+<img id="HELP_DOWN" onClick="showHelp()" src="/./general/down.png" alt="">
+<img id="HELP_UP"   onClick="showHelp()" src="/./general/up.png"   alt="">
+<input type="submit" name="ACTION" value="Remove selected">
+<input type="submit" name="ACTION" value="Remove all">
+<input type="submit" name="ACTION" value="Exit">
+</div>
+<span id="FORM-CONTENT"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDA91F1E23283349B37464CA94BBD5"></span>
+</form>
+<div id="HELP_BOX">
+<table class="HELP">
+<tr>
+<th class="HELP_1">Input Field</th>
+<th class="HELP_2">ID</th>
+<th class="HELP_3">Required Format</th>
+</tr><tr>
+<td class="HELP">Check Box</td>
+<td class="HELP">Varying</td>
+<td class="HELP">undef || 1</td>
+</tr><tr>
+<td class="HELP">Submit Button</td>
+<td class="HELP">ACTION</td>
+<td class="HELP">Remove selected || Remove all || Exit</td>
+</tr>
+</table>
+</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="MROW">
+    <div id="MCELL_BOTTOM">&copy; WAKA Software GmbH</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8_wakatours-header.jpg
+URL1=http://127.0.0.1:8800/general/wakatours-header.jpg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

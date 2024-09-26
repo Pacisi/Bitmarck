@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+User-Agent: Crashpad/0.8.0 WinHTTP/10.0.22621.1635 Windows_NT/10.0.22621.2070 (x64)
+Accept-Encoding: gzip, deflate, br
+Accept-Language: de
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:8800
+

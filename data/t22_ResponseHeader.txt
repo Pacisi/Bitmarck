@@ -1,0 +1,11 @@
+HTTP/1.1 201 Created
+Cache-Control: public, max-age=30
+Content-Length: 859
+Content-Type: application/json; charset=utf-8
+Location: v%7Bversion:apiVersion%7D/feeds/me/subscriptions/3c491f44-9481-af17-3f51-7feb814e78c2
+MS-CV: SNm7XNKnuItE7FrL.5.1.0
+X-AFS-Tracking: cV=SNm7XNKnuItE7FrL.5.1.0;server=GENERAL0100002J;cloudType=Multitenant;environment=Prod_WestEurope_x00e;migrationStage=NotStarted
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: AAE3512F9C554DD3A8E9AC7D9028A05C Ref B: FRAEDGE1718 Ref C: 2023-08-28T14:17:42Z
+Date: Mon, 28 Aug 2023 14:17:42 GMT
+

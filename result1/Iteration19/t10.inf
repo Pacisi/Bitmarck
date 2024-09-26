@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Submit Data: itinerary.pl_2
+Total=1
+FileName1=t10.html
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=itinerary.pl_2
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1714032260463
+URL1=http://127.0.0.1:8800/cgi-bin/itinerary.pl?ACTION=Remove+all&SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8FB2C3BEFF99

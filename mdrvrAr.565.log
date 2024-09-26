@@ -1,0 +1,4 @@
+Action.c(112): Continuing after Error -26611: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:8800/cgi-bin/booking.pl?DEPARTFLIGHTID=BWA0001&ACTION2=Next&SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81F062B2D384EB17F62C08DBDC3BDF39DF8"  	[MsgId: MERR-26611]
+Action.c(112): Continuing after Error -26366: "Text=Payment Details" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(161): Continuing after Error -26611: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:8800/cgi-bin/itinerary.pl?ACTION=Remove+all&SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81F19342A3743B5766ACB8BB2DFA2FC9BFD"  	[MsgId: MERR-26611]
+Action.c(161): Continuing after Error -26366: "Text=Number of Flight Bookings: 0" not found for web_reg_find  	[MsgId: MERR-26366]

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Transfer-Encoding: chunked
+Content-Type: application/octet-stream
+Content-Encoding: gzip
+Vary: Accept-Encoding
+MS-CV: Xj6t7JUcyyeA4EvsSAuSeW.0
+X-AFS-Tracking: cV=Xj6t7JUcyyeA4EvsSAuSeW.0;server=GENERAL01000016;cloudType=Multitenant;environment=Prod_WestEurope_x00e;migrationStage=NotStarted
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 9F0419112F5F4D6C80B6553AD9B08D74 Ref B: FRAEDGE2018 Ref C: 2023-08-28T14:17:42Z
+Date: Mon, 28 Aug 2023 14:17:42 GMT
+

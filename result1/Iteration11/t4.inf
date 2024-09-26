@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/html
+StepName=Url: login.pl_2
+Total=1
+FileName1=t4.html
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=login.pl_2
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1714032236720
+URL1=http://127.0.0.1:8800/cgi-bin/login.pl?USER=testuser_1&PASSWORD=testuser_1&ACTION=Login

@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Submit Data: booking.pl
+Total=1
+FileName1=t5.html
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=booking.pl
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1714032225413
+URL1=http://127.0.0.1:8800/cgi-bin/booking.pl?SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB88BFC3BEF992

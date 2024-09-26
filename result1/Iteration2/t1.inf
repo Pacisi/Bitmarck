@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/html
+StepName=Url: 127.0.0.1:8800
+Total=1
+FileName1=t1.html
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=127.0.0.1:8800
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1714032217759
+URL1=http://127.0.0.1:8800/

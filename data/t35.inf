@@ -1,0 +1,11 @@
+[t35]
+FileName1=t35.htm
+URL1=http://127.0.0.1:8800/cgi-bin/booking.pl?SESSIONID=ECF30576F2369848AAB470A1E176E16288DDA91F1E23283349B37464CA94BBD5
+Total=1
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_35.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

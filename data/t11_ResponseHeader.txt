@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Length: 116
+Content-Type: application/json; charset=utf-8
+MS-CV: BWAa8pBpwhJ7RcdYj4rw57.0
+X-AFS-Tracking: cV=BWAa8pBpwhJ7RcdYj4rw57.0;server=general01000017;cloudType=Multitenant;environment=Prod_WestEurope_000l;migrationStage=NotStarted
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 3BAEB75A681B46CC94104A78042C4E15 Ref B: FRAEDGE1411 Ref C: 2023-08-28T14:17:42Z
+Date: Mon, 28 Aug 2023 14:17:41 GMT
+

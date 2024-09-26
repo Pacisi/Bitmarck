@@ -1,0 +1,13 @@
+HTTP/1.1 204 No Content
+Date: Mon, 28 Aug 2023 14:17:42 GMT
+Connection: keep-alive
+Access-Control-Expose-Headers: x-cid, x-elapsedtime, x-manageoffice-client-sid, x-starttime, checkin-interval
+x-manageoffice-client-sid: 6fc9077e-0571-4c89-869a-db90807a2804
+Strict-Transport-Security: max-age=2592000
+mise-correlation-id: 578d062b-54b0-450e-b694-bf52cdc7a5aa
+CheckIn-Interval: 1440
+X-ElapsedTime: 0
+api-supported-versions: 1.0
+X-StartTime: 8/28/2023 2:17:41 PM
+x-cid: c1644d22-2ca9-4ee3-bb33-88855776778c
+

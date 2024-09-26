@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=3600
+Content-Length: 400
+Content-Type: application/json; charset=utf-8
+X-Cache: TCP_HIT
+X-Frame-Options: SAMEORIGIN
+X-MSEdge-Ref: Ref A: AB9FEBE5B14D46B9B0FB95EE4B50FE24 Ref B: FRAEDGE1317 Ref C: 2023-08-28T14:17:42Z
+Date: Mon, 28 Aug 2023 14:17:41 GMT
+

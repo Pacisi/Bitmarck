@@ -1,0 +1,15 @@
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Action.c(110): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(112): web_url("booking.pl_3") started  	[MsgId: MMSG-26355]
+Action.c(112): Registered web_reg_find successful for "Text=Payment Details" (count=1)  	[MsgId: MMSG-26364]
+Action.c(112): web_url("booking.pl_3") was successful, 4482 body bytes, 195 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(121): Notify: Transaction "06_FindFlightTime" ended with a "Pass" status (Duration: 0,2691 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(124): Notify: Transaction "07_PaymentDetails" started.	[MsgId: MMSG-16999]
+Action.c(126): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(126): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_url("booking.pl_4") started  	[MsgId: MMSG-26355]
+Action.c(128): Error -26611: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:8800/cgi-bin/booking.pl?PAYFIRSTNAME=testuser_7&PAYLASTNAME=testuser_7&PAYSTREET=testuser_7&PAYCITY=testuser_7&PAYCOUNTRY=testuser_7&PAYCARD=1234567890&ACTION3=Book&SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD819062B2D384EB17F62C88DB8C3B4F39E"  	[MsgId: MERR-26611]
+Action.c(128): Error -26366: "Text=Invoice" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

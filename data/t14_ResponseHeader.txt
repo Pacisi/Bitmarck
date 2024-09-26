@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 59
+Content-Type: application/x-protobuf; charset=utf-8
+Date: Mon, 28 Aug 2023 14:17:41 GMT
+Server: Microsoft-IIS/10.0
+Set-Cookie: ARRAffinity=643bd7faf3108d8fb8e83589050c59cc6c0c418eb0005d8e95a5f881412c0cd0;Path=/;HttpOnly;Secure;Domain=api.edgeoffer.microsoft.com
+Set-Cookie: ARRAffinitySameSite=643bd7faf3108d8fb8e83589050c59cc6c0c418eb0005d8e95a5f881412c0cd0;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.edgeoffer.microsoft.com
+Request-Context: appId=cid-v1:48af8e22-9427-456d-9a55-67a1e42a1bd9
+X-Powered-By: ASP.NET
+

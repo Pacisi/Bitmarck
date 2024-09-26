@@ -1,0 +1,99 @@
+<!DOCTYPE HTML> 
+<html lang="de">
+<head>
+<title>Booking &bull; WakaTours</title>
+<meta charset="utf-8">
+<meta name="author"				content="WAKA Software GmbH">
+<meta name="copyright"			content="WAKA Software GmbH">
+<meta name="robots" 			content="noindex,nofollow">
+<meta name="format-detection"	content="telephone=no">
+<link rel="icon" 				href="/./general/wakatours.ico" type="image/x-icon">
+<link rel="stylesheet"    		href="/./general/wakatours.css">
+<link rel="stylesheet"    		href="/./general/fonts-Roboto-Condensed.css">
+<script type="text/javascript"	src ="/./general/help.js"></script>
+</head>
+<body >
+<div id="MBANNER">
+<img src="/./general/wakatours-header.jpg" alt="">
+<h1 id="MHEADLINE" class="CH1">WakaTours</h1>
+</div>
+<div class="MTAB">
+  <div class="MROW">
+    <div id="MCELL_TOP">Logged in as: testuser_1</div>
+  </div>
+  <div class="MTAB">
+    <div class="MCELL">
+      <div class="MTAB">
+        <div id="MCELL_LEFT"><ul class="NAVI">
+<li class="NAVI"><a class="NAVI ACTIVE" onClick="document.forms['BOOKING'].submit();">Booking</a></li>
+<li class="NAVI"><a class="NAVI " onClick="document.forms['ITINERARY'].submit();">Itinerary</a></li>
+<li class="NAVI"><a class="NAVI " onClick="document.forms['PROFILE'].submit();">Profile</a></li>
+<li class="NAVI"><a class="NAVI" onClick="document.forms['LOGOUT'].submit();">Logout</a></li>
+</ul>
+<form method="GET" id="FORM-BOOKING"   name="BOOKING"   action="/./cgi-bin/booking.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8FB8C3BEFF9B"></form>
+<form method="GET" id="FORM-ITINERARY" name="ITINERARY" action="/./cgi-bin/itinerary.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8FB8C3BEFF9B"></form>
+<form method="GET" id="FORM-PROFILE"   name="PROFILE"   action="/./cgi-bin/profile.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8FB8C3BEFF9B"></form>
+<form method="GET" id="FORM-LOGOUT"    name="LOGOUT"    action="/./cgi-bin/logout.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8FB8C3BEFF9B"></form></div>
+        <div id="MCELL_RIGHT">
+<h2 class="CH2M">Booking &ndash; Payment Details</h2>
+<form action="/./cgi-bin/booking.pl" method="GET">
+<h3 class="H3BM">Total costs for 1 single trip ticket Cologne &ndash; Hamburg: 1350 &euro;</h3>
+<div class="BLUE_BOX">
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">First Name:</div><input type="text" name="PAYFIRSTNAME" value="testuser_1">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Last Name:</div><input type="text" name="PAYLASTNAME" value="testuser_1">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Street:</div><input type="text" name="PAYSTREET" value="testuser_1">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">City:</div><input type="text" name="PAYCITY" value="testuser_1">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Country:</div><input type="text" name="PAYCOUNTRY" value="testuser_1">
+</div>
+<div class="PROFILE_TAB">
+<div class="PROFILE_CELL">Credit Card:</div><input type="text" name="PAYCARD" value="">
+</div>
+</div>
+<br>
+<div class="ACTION">
+<img id="HELP_DOWN" onClick="showHelp()" src="/./general/down.png" alt="">
+<img id="HELP_UP"   onClick="showHelp()" src="/./general/up.png"   alt="">
+<input type="submit" name="ACTION3" value="Book">
+<input type="submit" name="ACTION3" value="Exit">
+</div>
+<span id="FORM-CONTENT"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8FB8C3BEFF9B"></span>
+</form>
+<div id="HELP_BOX">
+<table class="HELP">
+<tr>
+<th class="HELP_1">Input Field</th>
+<th class="HELP_2">ID</th>
+<th class="HELP_3">Required Format</th>
+</tr><tr>
+<td class="HELP">First Name<br>Last Name<br>Street<br>City<br>Country</td>
+<td class="HELP">PAYFIRSTNAME<br>PAYLASTNAME<br>PAYSTREET<br>PAYCITY<br>PAYCOUNTRY</td>
+<td class="HELP">not empty<br>no leading or trailing spaces<br>no '#'</td>
+</tr><tr>
+<td class="HELP">Credit Card</td>
+<td class="HELP">PAYCARD</td>
+<td class="HELP">10 digit integer number</td>
+</tr><tr>
+<td class="HELP">Submit Button</td>
+<td class="HELP">ACTION3</td>
+<td class="HELP">Book || Exit</td>
+</tr>
+</table>
+</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="MROW">
+    <div id="MCELL_BOTTOM">&copy; WAKA Software GmbH</div>
+  </div>
+</div>
+</body>
+</html>

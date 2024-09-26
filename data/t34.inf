@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34_ChRDaHJvbWUvMTE2LjAuMTkzOC42MhIXCccw19BxO9pTEgUN6ohXnhIFDVievOs=.txt
+URL1=https://edge.microsoft.com/autofillservice/v1/pages/ChRDaHJvbWUvMTE2LjAuMTkzOC42MhIXCccw19BxO9pTEgUN6ohXnhIFDVievOs=?alt=proto
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

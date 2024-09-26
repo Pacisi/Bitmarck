@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18_Roboto-Condensed-700.txt
+URL1=http://127.0.0.1:8800/general/fonts/Roboto-Condensed-700/Roboto-Condensed-700.woff2
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_18.xml
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

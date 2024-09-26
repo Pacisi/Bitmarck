@@ -1,0 +1,11 @@
+[t39]
+FileName1=t39.htm
+URL1=http://127.0.0.1:8800/cgi-bin/booking.pl?DEPARTFLIGHTID=BWA0001&ACTION2=Next&SESSIONID=ECF30576F2369848AAB470A1E176E16288DDA91F1E23283349B37464CA94BBD5
+Total=1
+RequestHeaderFile=t39_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t39_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_39.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t9]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/html
+StepName=Submit Data: itinerary.pl
+Total=1
+FileName1=t9.html
+RequestHeaderFile=t9_RequestHeader.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=itinerary.pl
+RequestBodyFile=t9_RequestBody.txt
+RawStepStartTime=1714032249080
+URL1=http://127.0.0.1:8800/cgi-bin/itinerary.pl?SESSIONID=ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB8EBDC3BEF893

@@ -1,0 +1,139 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: 127.0.0.1:8800",
+                "infFile": "t1.inf",
+                "time": 1714032217860
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: login.pl",
+                "infFile": "t2.inf",
+                "time": 1714032218015
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: login.pl_2",
+                "infFile": "t4.inf",
+                "time": 1714032218190
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: booking.pl",
+                "infFile": "t5.inf",
+                "time": 1714032218368
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: booking.pl_2",
+                "infFile": "t6.inf",
+                "time": 1714032218550
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: booking.pl_3",
+                "infFile": "t7.inf",
+                "time": 1714032218722
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: booking.pl_4",
+                "infFile": "t8.inf",
+                "time": 1714032218917
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: itinerary.pl",
+                "infFile": "t9.inf",
+                "time": 1714032219098
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: itinerary.pl_2",
+                "infFile": "t10.inf",
+                "time": 1714032219276
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: logout.pl",
+                "infFile": "t11.inf",
+                "time": 1714032219440
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_Startseite",
+                "rawStartTime": 1714032217727,
+                "rawEndTime": 1714032217868,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006657123565673828
+            },
+            {
+                "transactionName": "02_Login",
+                "rawStartTime": 1714032217884,
+                "rawEndTime": 1714032218026,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00606083869934082
+            },
+            {
+                "transactionName": "03_Enter",
+                "rawStartTime": 1714032218058,
+                "rawEndTime": 1714032218198,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006356716156005859
+            },
+            {
+                "transactionName": "04_Booking",
+                "rawStartTime": 1714032218215,
+                "rawEndTime": 1714032218373,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006822109222412109
+            },
+            {
+                "transactionName": "05_FindFlights",
+                "rawStartTime": 1714032218390,
+                "rawEndTime": 1714032218562,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006391763687133789
+            },
+            {
+                "transactionName": "06_FindFlightTime",
+                "rawStartTime": 1714032218578,
+                "rawEndTime": 1714032218737,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007718324661254883
+            },
+            {
+                "transactionName": "07_PaymentDetails",
+                "rawStartTime": 1714032218754,
+                "rawEndTime": 1714032218927,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0059413909912109379
+            },
+            {
+                "transactionName": "08_Itinerary",
+                "rawStartTime": 1714032218943,
+                "rawEndTime": 1714032219101,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0060579776763916019
+            },
+            {
+                "transactionName": "09_RemoveAll",
+                "rawStartTime": 1714032219117,
+                "rawEndTime": 1714032219291,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017423152923583986
+            },
+            {
+                "transactionName": "10_Logout",
+                "rawStartTime": 1714032219307,
+                "rawEndTime": 1714032219448,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006798505783081055
+            }
+        ]
+    }
+]

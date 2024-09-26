@@ -1,0 +1,178 @@
+<!DOCTYPE HTML> 
+<html lang="de">
+<head>
+<title>Booking &bull; WakaTours</title>
+<meta charset="utf-8">
+<meta name="author"				content="WAKA Software GmbH">
+<meta name="copyright"			content="WAKA Software GmbH">
+<meta name="robots" 			content="noindex,nofollow">
+<meta name="format-detection"	content="telephone=no">
+<link rel="icon" 				href="/./general/wakatours.ico" type="image/x-icon">
+<link rel="stylesheet"    		href="/./general/wakatours.css">
+<link rel="stylesheet"    		href="/./general/fonts-Roboto-Condensed.css">
+<script type="text/javascript"	src ="/./general/help.js"></script>
+</head>
+<body >
+<div id="MBANNER">
+<img src="/./general/wakatours-header.jpg" alt="">
+<h1 id="MHEADLINE" class="CH1">WakaTours</h1>
+</div>
+<div class="MTAB">
+  <div class="MROW">
+    <div id="MCELL_TOP">Logged in as: testuser_1</div>
+  </div>
+  <div class="MTAB">
+    <div class="MCELL">
+      <div class="MTAB">
+        <div id="MCELL_LEFT"><ul class="NAVI">
+<li class="NAVI"><a class="NAVI ACTIVE" onClick="document.forms['BOOKING'].submit();">Booking</a></li>
+<li class="NAVI"><a class="NAVI " onClick="document.forms['ITINERARY'].submit();">Itinerary</a></li>
+<li class="NAVI"><a class="NAVI " onClick="document.forms['PROFILE'].submit();">Profile</a></li>
+<li class="NAVI"><a class="NAVI" onClick="document.forms['LOGOUT'].submit();">Logout</a></li>
+</ul>
+<form method="GET" id="FORM-BOOKING"   name="BOOKING"   action="/./cgi-bin/booking.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB89B3C3BEF89E"></form>
+<form method="GET" id="FORM-ITINERARY" name="ITINERARY" action="/./cgi-bin/itinerary.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB89B3C3BEF89E"></form>
+<form method="GET" id="FORM-PROFILE"   name="PROFILE"   action="/./cgi-bin/profile.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB89B3C3BEF89E"></form>
+<form method="GET" id="FORM-LOGOUT"    name="LOGOUT"    action="/./cgi-bin/logout.pl"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB89B3C3BEF89E"></form></div>
+        <div id="MCELL_RIGHT">
+<h2 class="CH2M">Booking &ndash; Find Flight(s)</h2>
+<form action="/./cgi-bin/booking.pl" method="GET">
+<div class="BLUE_BOX">
+<table class="BOOKING0">
+<tr>
+  <td class="BOOKING0_LEFT">
+    <div class="BOOKING0_TAB">
+      <div class="BOOKING0_CELL1">Departure City:</div>
+      <select name="DEPARTCITYID">
+        <option value="CGN" selected="selected">Cologne</option>
+        <option value="HAM" >Hamburg</option>
+        <option value="BER" >Berlin</option>
+        <option value="MUC" >Munich</option>
+        <option value="LON" >London</option>
+        <option value="PAR" >Paris</option>
+        <option value="ROM" >Rome</option>
+        <option value="MOS" >Moscow</option>
+        <option value="NYO" >New York</option>
+        <option value="BOS" >Boston</option>
+        <option value="WAS" >Washington</option>
+        <option value="SFR" >San Francisco</option>
+        <option value="LAN" >Los Angeles</option>
+      </select>
+    </div>
+  </td>
+  <td class="BOOKING0_RIGHT">
+    <div class="BOOKING0_TAB">
+      <div class="BOOKING0_CELL2">Departure Date:</div>
+      <input type="text" name="DEPARTDATE" value="">
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="BOOKING0_LEFT">
+    <div class="BOOKING0_TAB">
+      <div class="BOOKING0_CELL3">Arrival City:</div>
+      <select name="ARRIVECITYID">
+        <option value="CGN" >Cologne</option>
+        <option value="HAM" selected="selected">Hamburg</option>
+        <option value="BER" >Berlin</option>
+        <option value="MUC" >Munich</option>
+        <option value="LON" >London</option>
+        <option value="PAR" >Paris</option>
+        <option value="ROM" >Rome</option>
+        <option value="MOS" >Moscow</option>
+        <option value="NYO" >New York</option>
+        <option value="BOS" >Boston</option>
+        <option value="WAS" >Washington</option>
+        <option value="SFR" >San Francisco</option>
+        <option value="LAN" >Los Angeles</option>
+      </select>
+    </div>
+  </td>
+  <td class="BOOKING0_RIGHT">
+    <div class="BOOKING0_TAB">
+      <div class="BOOKING0_CELL4">Return Date:</div>
+      <input type="text" name="RETURNDATE" value="">
+    </div>
+  </td>  
+</tr>
+<tr>
+  <td class="BOOKING0_LEFT">
+    <div class="BOOKING0_TAB">
+      <div class="BOOKING0_CELL5">No of Passengers:</div>
+      <input class="BOOKING_CELL6" type="text" maxlength="3" name="PASSENGERS" value="1">  
+    </div>
+  </td>
+  <td class="BOOKING0_RIGHT">
+    Round Trip:&nbsp; <input type="checkbox" name="ROUNDTRIP" value="1" >
+  </td>
+</tr>
+<tr>
+  <td class="BOOKING0_LEFT">
+    Seating Preference:<br>
+    &nbsp; <input type="radio" name="PREFERENCEID" value="AISLE" >&nbsp;Aisle<br>
+    &nbsp; <input type="radio" name="PREFERENCEID" value="WINDOW" >&nbsp;Window<br>
+    &nbsp; <input type="radio" name="PREFERENCEID" value="NONE" checked="checked">&nbsp;None
+  </td>
+  <td class="BOOKING0_RIGHT">
+    Seating Class:<br>
+    &nbsp; <input type="radio" name="CLASSID" value="FIRST" >&nbsp;First<br>
+    &nbsp; <input type="radio" name="CLASSID" value="BUSINESS" >&nbsp;Business<br>
+    &nbsp; <input type="radio" name="CLASSID" value="COACH" checked="checked">&nbsp;Coach
+  </td>
+</tr>
+</table>    
+</div>
+<br>
+<div class="ACTION">
+<img id="HELP_DOWN" onClick="showHelp()" src="/./general/down.png" alt="">
+<img id="HELP_UP"   onClick="showHelp()" src="/./general/up.png"   alt="">
+<input type="submit" name="ACTION1" value="Next">
+<input type="submit" name="ACTION1" value="Exit">
+</div>
+<span id="FORM-CONTENT"><input type="hidden" name="SESSIONID" value="ECF30576F2369848AAB470A1E176E16288DDD81F062B2C304EB17561CB89B3C3BEF89E"></span>
+</form>
+<div id="HELP_BOX">
+<table class="HELP">
+<tr>
+<th class="HELP_1">Input Field</th>
+<th class="HELP_2">ID</th>
+<th class="HELP_3">Required Format</th>
+</tr><tr>
+<td class="HELP">Departure City<br>Arrival City</td>
+<td class="HELP">DEPARTCITYID<br>ARRIVECITYID</td>
+<td class="HELP">CGN || HAM || BER || MUC || LON || PAR || ROM || MOS || NYO || BOS || WAS || SFR || LAN</td>
+</tr><tr>
+<td class="HELP">Departure Date<br>Return Date</td>
+<td class="HELP">DEPARTDATE<br>RETURNDATE</td>
+<td class="HELP">D[D]/M[M]/YYYY</td>
+</tr><tr>
+<td class="HELP">No of Passengers</td>
+<td class="HELP">PASSENGERS</td>
+<td class="HELP">1 &le; ID &le; 999</td>
+</tr><tr>
+<td class="HELP">Round Trip</td>
+<td class="HELP">ROUNDTRIP</td>
+<td class="HELP">undef || 1</td>
+</tr><tr>
+<td class="HELP">Seating Preference</td>
+<td class="HELP">PREFERENCEID</td>
+<td class="HELP">AISLE || WINDOW || NONE</td>
+</tr><tr>
+<td class="HELP">Seating Class</td>
+<td class="HELP">CLASSID</td>
+<td class="HELP">FIRST || BUSINESS || COACH</td>
+</tr><tr>
+<td class="HELP">Submit Button</td>
+<td class="HELP">ACTION1</td>
+<td class="HELP">Next || Exit</td>
+</table>
+</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="MROW">
+    <div id="MCELL_BOTTOM">&copy; WAKA Software GmbH</div>
+  </div>
+</div>
+</body>
+</html>
